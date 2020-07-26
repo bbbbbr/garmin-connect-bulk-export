@@ -1,8 +1,7 @@
+About:
+----------
+Export and Download Garmin Activity and Wellness / Health data from Garmin Connect online (FIT, TCX, GPX, etc)
 
-This is a modified script derived from a post on this forum:
-
-* (link expired) https://forums.garmin.com/forum/on-the-trail/wrist-worn/fenix-3/138923-bulk-export-all-activities-to-tcx-files#post1014345
-* https://forums.garmin.com/apps-software/mobile-apps-web/f/garmin-connect-web/166824/is-there-a-way-to-export-bulk-data-to-tcx-or-gpx-files-seems-like-i-can-only-bulk-export-to-csv-and-individual-activities-to-gpx
 
 Description:
 -----------
@@ -10,6 +9,10 @@ This script downloads activities, starting at the most recent and iterating back
 through older ones. If you don't put the right total number in to download them all,
 just navigate to the last one it got and re-run from there.
 
+Which script to use:
+-----------
+Export Activity Data: garmin export script run from console.js
+Export Wellness / Health Data: garmin export wellness data run from console.js
 
 Before using:
 ------------
@@ -45,3 +48,11 @@ seconds every time, change the downloadTimeoutLength from 3 * 1000 to
 whatever number you want (it's 3*1000 because that's 3000 milliseconds
 = 3 seconds).
 
+
+Credit:
+-------
+
+This is a modified script derived from a post on this forum:
+
+* (link expired) https://forums.garmin.com/forum/on-the-trail/wrist-worn/fenix-3/138923-bulk-export-all-activities-to-tcx-files#post1014345
+* https://forums.garmin.com/apps-software/mobile-apps-web/f/garmin-connect-web/166824/is-there-a-way-to-export-bulk-data-to-tcx-or-gpx-files-seems-like-i-can-only-bulk-export-to-csv-and-individual-activities-to-gpx
